@@ -101,8 +101,3 @@ git push -u origin main
 
 ---
 
-## After This
-
-You can now add more files, commit changes, and push to GitHub as you work on your project.
-
-If you need details on cloning, further pushes, or configuring Git, let me know!
