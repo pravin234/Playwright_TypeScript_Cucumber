@@ -1,0 +1,21 @@
+{
+  "name": "cucumber_playwright_setup",
+  "version": "1.0.0",
+  "author": "Pravin Kadam",
+  "license": "ISC",
+  "scripts": {
+    "clean": "ts-node clean.ts",
+    "test": "cucumber-js --require-module ts-node/register --require features/**/*.ts --format json:reports/cucumber-report.json",
+    "report": "ts-node generate-report.ts",
+    "test:report": "npm run test && npm run report && npx playwright show-report"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@types/fs-extra": "^11.0.4",
+    "fs-extra": "^11.3.2",
+    "multiple-cucumber-html-reporter": "^3.9.3",
+    "playwright": "^1.56.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
