@@ -1,0 +1,27 @@
+# Node and build
+node_modules/
+dist/
+build/
+
+# Playwright and test artifacts
+playwright-report/
+test-results/
+reports/
+screenshots/
+videos/
+trace.zip
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+
+# Logs and env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+
+# Misc
+coverage/
+package.json)
