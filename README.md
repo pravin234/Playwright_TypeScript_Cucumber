@@ -487,6 +487,5 @@ This framework is now:
 
 ---
 
-I can also **add full data-driven testing support** where you can run **one scenario for multiple users automatically** using JSON or CSV.
 
 Do you want me to implement that next?
